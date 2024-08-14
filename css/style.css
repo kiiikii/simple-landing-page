@@ -1,0 +1,158 @@
+/* CSS variable */
+:root {
+    --transition: 0.4 ease-in;
+    --color: #F9FAF8;
+    --color2: #E5E7EB;
+    --color3: #1F2937;
+    --herotxt: 48px;
+    --bolder: 900;
+    --herotxt2: 18px;
+    --headerlogo: 24px;
+    --buttoncolor: #3882F6;
+    --information: 36px;
+    --light: 200;
+    --font-style: italic;
+}
+
+/* Resets */
+html {
+    scroll-behavior: smooth;
+}
+  
+*, 
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: var(--transition);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header */
+.navbar {
+    background-color: var(--color3);
+}
+
+.navbar-brand {
+    color: var(--color);
+    font-size: var(--headerlogo);
+}
+
+.navbar-brand:hover, 
+.nav-link:hover {
+    color: var(--color);
+}
+
+.nav-link, .active {
+    color: var(--color) !important;
+}
+
+/* hero section */
+.hero {
+    background-color: var(--color3);
+}
+
+.display-4 {
+    color: var(--color);
+    font-size: var(--herotxt);
+    font-weight: var(--bolder);
+}
+
+.lead {
+    color: var(--color2) !important;
+    font-size: var(--herotxt2);
+}
+
+/* info section */
+.information {
+    font-size: var(--information);
+    font-weight: var(--bolder);
+    color: var(--color3);
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.info-card-img {
+    width: 50%;
+    height: 110px;
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.info-card-img > img {
+    width: 100%;
+    max-width: inherit;
+}
+
+.info-card-text {
+    font-size: 16px;
+    color: #6B7280;
+}
+
+/* quotes */
+.quotes {
+    background-color: var(--color2);
+}
+
+.fsw-italic {
+    font-style: italic;
+    font-size: var(--information);
+    font-weight: 300;
+}
+
+.blockquote-footer {
+    text-align: right;
+    font-weight: bold;
+}
+
+/* call in action */
+.cta-section {
+    background-color: white;
+}
+
+.cta-section .cta-content {
+    background-color: #3882F6;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.cta-section h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+
+.cta-section a {
+    background-color: var(--buttoncolor);
+    color: var(--color);
+    font-weight: 700;
+    width: 25%;
+}
+
+.button {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* footer */
+.footer {
+    background-color: var(--color3);
+    font-size: var(--herotxt2);
+    padding: 20px;
+}
+
+.footer-text {
+    color: var(--color);
+}

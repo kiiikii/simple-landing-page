@@ -4,10 +4,160 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
         <title>Awesome Website</title>
     </head>
     <body>
-        
+
+        <!-- header -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand">Header Logo</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link active" aria-current="page">
+                                Header link one
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                Header link two
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                Header link three
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- end header -->
+
+        <!-- hero section -->
+        <section class="hero py-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <h1 class="display-4">This website is Awesome</h1>
+                        <p class="lead text-muted">This website has some subtext that goes here under the main title. It’s a smaller font and the color is lower contrast.</p>
+                        <a href="#" class="btn btn-primary">Sign up</a>
+                    </div>
+                    <div class="col-lg-6 text-center mt-4 mt-lg-0">
+                        <div class="text-dark p-5 rounded">
+                            <img src="images/intro-illustration_qneuer.svg" alt="images" class="img-fluid rounded">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end hero section -->
+
+        <!-- info section -->
+        <section class="py-5 info-section">
+            <div class="container text-center">
+                <h3 class="mb-5 information">
+                    Some random information.
+                </h3>
+                <div class="row justify-content-center">
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="info-card">
+                            <div class="info-card-img">
+                                <img src="images/intro-illustration_qneuer.svg" alt="">
+                            </div>
+                            <p class="info-card-text">
+                                this is some subtext under an illustration or image
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="info-card">
+                            <div class="info-card-img">
+                                <img src="images/intro-illustration_qneuer.svg" alt="">
+                            </div>
+                            <p class="info-card-text">
+                                this is some subtext under an illustration or image
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="info-card">
+                            <div class="info-card-img">
+                                <img src="images/intro-illustration_qneuer.svg" alt="">
+                            </div>
+                            <p class="info-card-text">
+                                this is some subtext under an illustration or image
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <div class="info-card">
+                            <div class="info-card-img">
+                                <img src="images/intro-illustration_qneuer.svg" alt="">
+                            </div>
+                            <p class="info-card-text">
+                                this is some subtext under an illustration or image
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of info section -->
+
+        <!-- quotes section -->
+        <section class="quotes py-5">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <blockquote class="blockquote">
+                            <p class="fs-3 fsw-italic text-muted">
+                                "This is an inspiring quote, or a testimonial from a customer. Maybe it’s just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice."
+                            </p>
+                            <footer class="blockquote-footer mt-3">
+                                Thor, <cite title="Source Title">God of Thunder</cite>
+                            </footer>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of quotes section -->
+
+        <!-- call in action section -->
+        <section class="cta-section py-5">
+            <div class="container">
+                <div class="p-5 rounded bg-primary text-light cta-content">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h3 class="fw-bold">Call to Action! It's Time!</h3>
+                            <p>Sign up for our product by clicking that button right over there!</p>
+                        </div>
+                        <div class="col-md-6 button">
+                            <a href="#" class="btn btn-light">Sign up</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of call in action -->
+
+        <!-- footer -->
+        <footer class="footer py-5">
+            <div class="container text-center">
+                <p class="mb-0 footer-text">Copyright © The Odin Project 2021</p>
+            </div>
+        </footer>
+        <!-- end of footer -->
+
+        <script src="js/script.js"></script>
+        <script src="js/bootstrap.min.js"></script>
     </body>
 </html>
